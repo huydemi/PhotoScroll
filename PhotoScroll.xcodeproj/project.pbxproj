@@ -14,7 +14,9 @@
 		481872FD1C00E747001C3658 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481872FC1C00E747001C3658 /* PhotoCell.swift */; };
 		489D25A31C07787C006283B2 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D25A21C07787C006283B2 /* UIImage.swift */; };
 		48C5E5C71C0269BE007D1345 /* ZoomedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C5E5C61C0269BE007D1345 /* ZoomedPhotoViewController.swift */; };
-		C0A24B821EC500DD006DE8A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A24B801EC500DD006DE8A7 /* LaunchScreen.xib */; };
+		C0A24B851EC50106006DE8A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A24B831EC50106006DE8A7 /* LaunchScreen.xib */; };
+		D2FD8FB01C5DBD2D009F3C4D /* PhotoCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD8FAF1C5DBD2D009F3C4D /* PhotoCommentViewController.swift */; };
+		D2FD8FB41C5DD6AB009F3C4D /* ManagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD8FB31C5DD6AB009F3C4D /* ManagePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +29,9 @@
 		481872FC1C00E747001C3658 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		489D25A21C07787C006283B2 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		48C5E5C61C0269BE007D1345 /* ZoomedPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomedPhotoViewController.swift; sourceTree = "<group>"; };
-		C0A24B811EC500DD006DE8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0A24B841EC50106006DE8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2FD8FAF1C5DBD2D009F3C4D /* PhotoCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentViewController.swift; sourceTree = "<group>"; };
+		D2FD8FB31C5DD6AB009F3C4D /* ManagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 				489D259E1C05B452006283B2 /* zooming */,
 				489D25A11C060B53006283B2 /* paging */,
 				481872F11C00CD06001C3658 /* Assets.xcassets */,
-				C0A24B801EC500DD006DE8A7 /* LaunchScreen.xib */,
+				C0A24B831EC50106006DE8A7 /* LaunchScreen.xib */,
 				481872F61C00CD06001C3658 /* Info.plist */,
 			);
 			path = PhotoScroll;
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				48C5E5C61C0269BE007D1345 /* ZoomedPhotoViewController.swift */,
+				D2FD8FAF1C5DBD2D009F3C4D /* PhotoCommentViewController.swift */,
 			);
 			name = zooming;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		489D25A11C060B53006283B2 /* paging */ = {
 			isa = PBXGroup;
 			children = (
+				D2FD8FB31C5DD6AB009F3C4D /* ManagePageViewController.swift */,
 			);
 			name = paging;
 			sourceTree = "<group>";
@@ -158,7 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A24B821EC500DD006DE8A7 /* LaunchScreen.xib in Resources */,
+				C0A24B851EC50106006DE8A7 /* LaunchScreen.xib in Resources */,
 				481872F21C00CD06001C3658 /* Assets.xcassets in Resources */,
 				481872F01C00CD06001C3658 /* Main.storyboard in Resources */,
 			);
@@ -171,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FD8FB01C5DBD2D009F3C4D /* PhotoCommentViewController.swift in Sources */,
 				481872ED1C00CD06001C3658 /* CollectionViewController.swift in Sources */,
 				48C5E5C71C0269BE007D1345 /* ZoomedPhotoViewController.swift in Sources */,
 				481872FD1C00E747001C3658 /* PhotoCell.swift in Sources */,
+				D2FD8FB41C5DD6AB009F3C4D /* ManagePageViewController.swift in Sources */,
 				481872EB1C00CD06001C3658 /* AppDelegate.swift in Sources */,
 				489D25A31C07787C006283B2 /* UIImage.swift in Sources */,
 			);
@@ -190,10 +198,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C0A24B801EC500DD006DE8A7 /* LaunchScreen.xib */ = {
+		C0A24B831EC50106006DE8A7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0A24B811EC500DD006DE8A7 /* Base */,
+				C0A24B841EC50106006DE8A7 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
